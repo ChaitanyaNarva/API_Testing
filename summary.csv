@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1618812792378,913,HTTP Request,200,OK,Thread Group 1-1,text,true,,444,324,1,1,https://petstore.swagger.io/v2/store/order,913,0,692
+1618812793295,1368,HTTP Request,200,OK,Thread Group 1-1,text,true,,775,342,1,1,https://petstore.swagger.io:443/v2/store/order/1,446,0,225
+1618812793295,446,HTTP Request-0,302,Moved Temporarily,Thread Group 1-1,text,true,,331,169,1,1,http://petstore.swagger.io/v2/store/order/1,446,0,225
+1618812793742,921,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,444,173,1,1,https://petstore.swagger.io:443/v2/store/order/1,921,0,696
+1618812794665,218,HTTP Request,200,OK,Thread Group 1-1,text,true,,424,171,1,1,https://petstore.swagger.io/v2/store/inventory,218,0,0
